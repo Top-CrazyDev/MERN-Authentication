@@ -1,0 +1,79 @@
+.container{
+    background-color:azure;
+    width: 100%;
+    height: 100vh;
+}
+.header-container{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-box{
+    width: 30%;
+    height: 100%;
+}
+.header-logo{
+    width: 60%;
+    height:50%;
+    margin: 5% 20% 0% 20%;
+    display: flex;
+    justify-content:space-around;
+}
+.logo{
+    width:80px;
+    height:80px;
+    background-color: #391D88;
+    border-radius: 8px;
+}
+.logotxt{
+    color: #391D88;
+    font-family: Lexend;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.header-box2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    width:20%;
+    height:30%;
+    margin: auto;
+    color: #391D88;
+    font-family: Lexend;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.body-container{
+    width: 100%;
+    height: 70%;
+    
+}
+.body-box1{
+    width:300px;
+    height:100px;
+    margin: auto;
+    padding-top: 10%;
+    color: #1E1E1E;
+    font-family: Lexend;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.body-box2{
+    width:50%;
+    margin: auto;
+}
+.footer-container{
+    width: 100%;
+    height: 15%;
+    background-color: #391D88;
+}

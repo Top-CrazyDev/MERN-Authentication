@@ -1,0 +1,299 @@
+.bf-container{
+    width:100%;
+    background-color: azure;
+}
+.bf-header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #391D88;
+}
+.bfh{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+.bfh2{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.bfh3{
+    width: 10%;
+    
+}
+.bfh-btn{
+    margin: auto;
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.bft-img-main{
+    
+}
+.bflogo{
+    width:30px;
+    height:30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: auto;
+    margin-right: 0px;
+}
+.bflogotxt{
+    color: #ffffff;
+    font-family: Lexend;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: auto;
+    margin-left: 10px;
+}
+.bf-body-main{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: azure;
+}
+.bf-footer{
+    width: 100%;
+    height: 10%;
+    background-color: #391D88;
+}
+.bfb-up{
+    width:20%;
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 200px 0px 0px 100px;
+}
+.submit-head{
+    color: #1E1E1E;
+    font-family: Lexend;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.bfb-rect{
+    width:70%;
+    height:500px;
+    margin: 200px 100px 0px 0px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.submit-btn,
+.submit-url,
+.submit-upload{
+    width: 100%;
+}
+.upload-btn{
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    background-color: #391D88;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.upload-url{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.url-input{
+    width: 70%;
+    border-radius: 10px 0px 0px 10px;
+}
+.url-btn{
+    width: 30%;
+    background-color: #391D88;
+    border-radius: 0px 10px 10px 0px;
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.submit-btn{
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    background-color: #391D88;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.ico{
+    margin: auto;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFF;
+    color:#391D88;
+    font-family: Lexend;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding-top: 3px;
+}
+
+
+
+
+.bf-body-pricing{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+
+}
+.bf-footer{
+    width: 100%;
+    height: 10%;
+    background-color: #391D88;
+}
+.bfb-center{
+    margin: 0px 30% 0px 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 135px;
+}
+.bfb-free{
+    width:250px;
+    height:300px;
+    background-image: url(../img/1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-color:#ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.30);
+
+}
+.bfb-buy{
+    width: 250px;
+    height: 430px;
+    background-image: url(../img/2\ \(1\).png);
+    background-color: #ffffff;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.30);
+
+}
+p{
+    color: #391D88;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.price{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    color: #391D88;
+    font-family: Lexend;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 3px solid #391D88;
+}
+.pay-btn{
+    width:50%;
+    height: 30px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 40px;
+    background: #391D88;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+
+
+
+
+.bf-body-help{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    background-color: azure;
+
+}
+.bf-footer{
+    width: 100%;
+    height: 5vh;
+    background-color: #391D88;
+}
+p{
+    color: #1E1E1E;
+    font-family: Lexend;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.help-t{
+    width:250px;
+    height: 70px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #1E1E1E;
+    font-family: Lexend;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.help-c{
+    width:70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
